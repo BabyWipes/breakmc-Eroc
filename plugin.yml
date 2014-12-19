@@ -1,0 +1,42 @@
+main: com.breakmc.eroc.Eroc
+name: Eroc
+version: 1.0.0
+
+commands:
+  vanish:
+      aliases: [v]
+        help:
+	permissions:
+	  eroc.admin:
+	      default: op
+	        eroc.clearchat:
+		    default: op
+		      eroc.mutechat:
+		          default: op
+			    eroc.mutechat.bypass:
+			        default: op
+				  eroc.staffchat:
+				      default: op
+				        eroc.report.receive:
+					    default: op
+					      eroc.antispam.bypass:
+					          default: op
+						    eroc.mutechat.*:
+						        default: op
+							  eroc.slowchat:
+							      default: op
+							        eroc.slowchat.*:
+								    default: op
+								      eroc.slowchat.bypass:
+								          default: op
+									    eroc.warn:
+									        default: op
+										  eroc.listentity:
+										      default: op
+										        eroc.vanish:
+											    default: op
+											      eroc.vanish.*:
+											          default: op
+												    eroc.combattag.bypass:
+												        default: op
+
